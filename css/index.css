@@ -133,5 +133,29 @@ table {
 html,
 body {
   height: 100%;
-  color: red;
+}
+/* My Code Starts Here */
+.navBar a {
+  text-decoration: none;
+  color: #A9A9A9;
+  padding: 35px;
+  font-size: 20px;
+}
+.navFlex {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+h1 {
+  font-family: courier;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align: center;
+  margin: 60px;
+}
+.misterDonut {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
